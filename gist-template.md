@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex-Tutorial
 
-Introductory paragraph (replace this with your text)
+ A regular expression, or regex for short, is a sequence of characters that defines a specific search pattern. When incorporated into code or search algorithms, regular expressions enable the identification of particular patterns of characters within a string. Additionally, they can be utilized to locate and substitute a character or sequence of characters within a string. Furthermore, regular expressions are commonly employed for input validation purposes.
 
 ## Summary
 
