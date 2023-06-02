@@ -71,7 +71,7 @@ Boundaries \b is one side of the word and the other side is not a word character
 
 
 ### Look-ahead and Look-behind
-Look-ahead and Look-behind regex components are also known as "lookarounds". They have no boundaries and will start looking whether there's a match or not.
+Look-ahead and Look-behind regex components are also known as "lookarounds". They have no boundaries and will start looking whether there's a match or not. These are used to look for specific characters that are either followed by or before a specific character or sequence of characters to find a match. An example of this it to look for a $ followed by a number to find all the prices on a page. My code for email matching does not use a look-ahead or a look-behind component.
 
 
 
