@@ -4,7 +4,8 @@
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I have selected a regular expression for an email address and this is what the regular expression is:
+Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
@@ -23,13 +24,16 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-anchor part of reg expression
-
+This regular expression has two anchors. The caret and the dollar sign. The caret matches at the start of the string the regex pattern is applied to. As for the dollar sign, it matches at the end of the string the regex pattern is applied to.
 ### Quantifiers
+My regular expression has a greedy quantifier which is the plus symbol. It repeats the previous item once or more. Their is no limit to the length of the string to the left of the @ sign. 
 
 ### OR Operator
+The OR Operator is the vertical line which represents OR and is not present in the regular expression.
 
 ### Character Classes
+My regular expressions has several char classes determined by hyphens. For example the first char class allows any letters between a-z. As for the second, it allows any numbers between 0-9. 
+
 
 ### Flags
 
