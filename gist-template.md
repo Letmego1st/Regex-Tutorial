@@ -24,7 +24,7 @@ Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ## Regex Components
 
 ### Anchors
-This regular expression has two anchors. The caret and the dollar sign. The caret matches at the start of the string the regex pattern is applied to. As for the dollar sign, it matches at the end of the string the regex pattern is applied to.
+This regular expression has two anchors. The caret ^ and the dollar $ sign. The caret matches at the start of the string the regex pattern is applied to. As for the dollar sign, it matches at the end of the string the regex pattern is applied to.
 ### Quantifiers
 My regular expression has a greedy quantifier which is the plus symbol. It repeats the previous item once or more. Their is no limit to the length of the string to the left of the @ sign. 
 
@@ -36,12 +36,17 @@ My regular expressions has several char classes determined by hyphens. For examp
 
 
 ### Flags
+The / is used to delimit the expression. And would come before the caret and after the dollar sign. After the closing / g = global search, i = case sensitive search, m = multi-line search, are some flags that may be used. The flags in my regular expression represent the beginning and the end of the expression.
+
+
 
 ### Grouping and Capturing
 
 ### Bracket Expressions
+Using brackets allows a regex to match specific characters in a range. So, [a-z] is not looking for a or - or z, but actually looking for any letters a through z. And in the brackets the "-" is not taken literally in the cases of a-z or 0-9. But after the \ to escape the period it is recognized as a literal "-".
 
 ### Greedy and Lazy Match
+A greedy match will match as much as possible while the lazy match will try to match as little as possible. In matches in the email regex are greedy and will match as much as possible.
 
 ### Boundaries
 
@@ -50,5 +55,6 @@ My regular expressions has several char classes determined by hyphens. For examp
 ### Look-ahead and Look-behind
 
 ## Author
+John Elmore
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
