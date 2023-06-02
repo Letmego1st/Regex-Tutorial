@@ -23,6 +23,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+anchor part of reg expression
 
 ### Quantifiers
 
