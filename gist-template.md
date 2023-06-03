@@ -48,7 +48,7 @@ Parenthases are used to group parts of the expression together. In /^([a-z0-9_\.
 
 
 ### Bracket Expressions
-Using brackets allows a regex to match specific characters in a range. So, [a-z] is not looking for a or z, it's actually looking for any letters a through z. And in the brackets the "-" is not taken literally in the cases of a-z or 0-9. But after the \ to escape the period it is recognized as a literal "-".
+Using brackets allows a regex to match specific characters in a range. So, [a-z] is not looking for a or z, it's actually looking for any letters a through z. And in the brackets the "-" is not taken literally in the cases of a-z or 0-9. But after the \ to escape the period it is recognized as a literal "-" or hyphen.
 
 
 ### Greedy and Lazy Match
@@ -56,7 +56,7 @@ A greedy match will match as much as possible while the lazy match will try to m
 
 
 ### Boundaries
-Boundaries \b is one side of the word and the other side is not a word character ( a string or a space).
+Boundaries \b is one side of the word and the other side is not a word character ( a string or a space). Boundaries use \b and \B \b\ represents an anchor like caret \B\ This matches all positions where \b\ doesn’t match. In my regex expression above: no boundaries are used
 
 
 ### Back-references
@@ -76,8 +76,9 @@ Look-ahead and Look-behind regex components are also known as "lookarounds". The
 
 
 ## Author
-Hi my name is John Elmore and I enjoy coding. Please feel free to view my projects.
+Hi This tutorial was written by John Elmore, a full stack web developer. Please feel free to contact me through my channel below for further
+discussion, corrections, or inquiries.
 
 https://github.com/Letmego1st
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
